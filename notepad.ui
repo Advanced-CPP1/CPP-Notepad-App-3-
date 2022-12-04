@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NotePad</class>
+ <widget class="QMainWindow" name="NotePad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NotePad</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>1041</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16px;</string>
+    </property>
+   </widget>
+   <widget class="QFontComboBox" name="fontComboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>191</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>51</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="color">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>72</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yellow</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brown</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Black</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cyan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>More</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="bold_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/bold_icon.png</normaloff>:/imgs/imgs/bold_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bold_button_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/bold_icon.png</normaloff>:/imgs/imgs/bold_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="underline_button">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/underline_icon.png</normaloff>:/imgs/imgs/underline_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>22</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="underline_button_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/underline_icon.png</normaloff>:/imgs/imgs/underline_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>22</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="center_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/center_icon.png</normaloff>:/imgs/imgs/center_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="italic_button">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/italic_icon.png</normaloff>:/imgs/imgs/italic_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="center_button_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/center_icon.png</normaloff>:/imgs/imgs/center_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="italic_button_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/italic_icon.png</normaloff>:/imgs/imgs/italic_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linethrough">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/linethrough_icon.png</normaloff>:/imgs/imgs/linethrough_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>23</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linethrough_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/linethrough_icon.png</normaloff>:/imgs/imgs/linethrough_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>23</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="paste_button">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>0</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/paste_icon.png</normaloff>:/imgs/imgs/paste_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>linethrough_2</zorder>
+   <zorder>italic_button_2</zorder>
+   <zorder>center_button_2</zorder>
+   <zorder>underline_button_2</zorder>
+   <zorder>bold_button_2</zorder>
+   <zorder>italic_button</zorder>
+   <zorder>center_button</zorder>
+   <zorder>underline_button</zorder>
+   <zorder>bold_button</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>fontComboBox</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>color</zorder>
+   <zorder>linethrough</zorder>
+   <zorder>paste_button</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

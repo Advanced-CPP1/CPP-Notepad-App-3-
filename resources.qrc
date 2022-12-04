@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>imgs/center_icon.png</file>
+        <file>imgs/bold_icon.png</file>
+        <file>imgs/underline_icon.png</file>
+        <file>imgs/italic_icon.png</file>
+        <file>imgs/notepad_icon.ico</file>
+        <file>imgs/linethrough_icon.png</file>
+        <file>imgs/paste_icon.png</file>
+    </qresource>
+</RCC>
